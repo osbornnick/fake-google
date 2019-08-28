@@ -104,8 +104,9 @@ footer a {
 }
 
 #apps {
-  height: 18px;
-  padding: 0px 15px;
+  height: 25px;
+  padding: 0px 10px;
+  vertical-align: middle;
 }
 
 #mic {
