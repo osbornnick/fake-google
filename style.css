@@ -1,9 +1,10 @@
 body  {
   display: block;
   text-align: center;
+  margin: 100px 0px 0px;
 }
 
-button {
+button.mid{
   margin: 11px 4px;
   color: #5F6368;
   background-color: #f2f2f2;
@@ -15,10 +16,30 @@ button {
   line-height: 27px;
 }
 
+button.sign-in {
+  background-color: #4285f4;
+  color: #fff;
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  padding: 0 12px;
+  margin: 0px 5px;
+  line-height: 28px;
+  border-radius: 2px
+}
+
 input {
   width: 500px;
-  height: 25px;
-  border-radius: 10%;
+  height: 34px;
+  border-radius: 5px;
+  margin: 20px;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  border: 1px solid gray;
+  padding: 0px 5px;
+}
+
+input:focus{
+  outline-width: 0;
 }
 
 a {
@@ -39,9 +60,25 @@ footer {
   width: 100%;
   position: absolute;
   display: block;
-  height: 35px;
   border-top: 1px solid #e4e4e4;
   line-height: 40px;
+}
+
+header {
+  top: 0;
+  width: 100%;
+  position: absolute;
+  display: block;
+  height: 35px;
+  line-height: 40px;
+  margin-top: 10px;
+}
+
+header a {
+  padding-left: 27px;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: small;
 }
 footer a {
   padding-left: 27px;
@@ -52,13 +89,21 @@ footer a {
 
 .left {
   text-align: left;
+  float: left;
 }
 
 .right {
   text-align: right;
   position: relative;
+  float: right;
+  margin-right: 18px;
 }
 
 #logo {
   padding: 109px 0px 0px;
+}
+
+#apps {
+  height: 18px;
+  padding: 0px 15px;
 }
