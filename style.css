@@ -24,7 +24,8 @@ button.sign-in {
   padding: 0 12px;
   margin: 0px 5px;
   line-height: 28px;
-  border-radius: 2px
+  border-radius: 2px;
+  border-style: none;
 }
 
 input {
